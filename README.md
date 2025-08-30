@@ -23,8 +23,6 @@ Antes de comenzar, asegúrate de tener instalado en tu ordenador:
 ├── frontend/ # Cliente Angular
 └── README.md
 
-yaml
-Copiar código
 
 ---
 
@@ -33,11 +31,9 @@ Copiar código
 Clona este repositorio en tu máquina:
 
 ```bash
-git clone <URL_DE_TU_REPO.git>
+git clone https://github.com/KhalifaSex/inventario2.git
 cd proyecto-fullstack
 1️⃣ Levantar el Backend (API)
-bash
-Copiar código
 cd backend
 npm install       # Instala dependencias
 npm start         # Inicia el servidor en http://localhost:3000
@@ -50,8 +46,7 @@ http://localhost:3000/api/maintenance
 2️⃣ Levantar el Frontend (Angular)
 En otra terminal, ejecuta:
 
-bash
-Copiar código
+
 cd frontend
 npm install       # Instala dependencias
 ng serve -o       # Levanta la app en http://localhost:4200
